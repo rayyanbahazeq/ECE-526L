@@ -1,0 +1,112 @@
+{
+    "stat": {
+        "ru_self_end": {
+            "ru_utime_sec": 0.091706999999999997,
+            "ru_maxrss_kb": 67564,
+            "ru_stime_sec": 0.074944999999999998,
+            "ru_nvcsw": 272,
+            "ru_minflt": 26786,
+            "ru_majflt": 0,
+            "ru_nivcsw": 35
+        },
+        "ru_childs_end": {
+            "ru_utime_sec": 0.019195,
+            "ru_maxrss_kb": 15400,
+            "ru_stime_sec": 0.025293,
+            "ru_nvcsw": 22,
+            "ru_minflt": 6905,
+            "ru_majflt": 0,
+            "ru_nivcsw": 9
+        },
+        "cpu_cycles_end": 2685896097599964,
+        "peak_mem_kb": 228032
+    },
+    "Modules": {
+        "...MASTER...": {
+            "start_perf": [
+                0.33167099952697754,
+                0.065142000000000005,
+                0.047301000000000003,
+                214100,
+                228032,
+                1676611012.696629,
+                2685895450180250
+            ],
+            "child_modules": {
+                "Lab2_1_tb": 1
+            },
+            "nMops": 0,
+            "nQuads": 0,
+            "end_perf": [
+                0.37035799026489258,
+                0.068750000000000006,
+                0.054785,
+                215696,
+                228032,
+                2685895586023394,
+                0,
+                0
+            ],
+            "nRouts": 5
+        },
+        "Lab2_1_tb": {
+            "start_perf": [
+                0.37075400352478027,
+                0.068750000000000006,
+                0.055163999999999998,
+                215696,
+                228032,
+                1676611012.7357121,
+                2685895587266634
+            ],
+            "Compiled": "Yes",
+            "child_modules": {},
+            "Compiled Times": 7,
+            "nMops": 446,
+            "nQuads": 233,
+            "end_perf": [
+                0.44275093078613281,
+                0.085854,
+                0.066536999999999999,
+                219772,
+                228032,
+                2685895839625906,
+                12884901889,
+                0
+            ],
+            "nRouts": 27
+        }
+    },
+    "CompUnits": {
+        "sCbUH_d": {
+            "mod": "Lab2_1_tb",
+            "archive": "archive.6/_2176_archive_1.a",
+            "out": "sCbUH_d.o",
+            "bytes": 13284,
+            "text": 2485,
+            "mode": 4,
+            "checksum": 0
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.6/_2176_archive_1.a",
+            "objects": [
+                [
+                    "sCbUH_d.o",
+                    13284
+                ],
+                [
+                    "amcQwB.o",
+                    99388
+                ]
+            ],
+            "size": 112672
+        }
+    ],
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        }
+    }
+}
