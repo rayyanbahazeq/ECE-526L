@@ -27,8 +27,8 @@
 -gen_obj
 -picarchive
 /opt/synopsys/vcs-mx/N-2017.12-SP2-9/linux64/bin/vcs1
-Lab2_1.v
-lab2_tb2.v
+Lab2_2.v
+lab2_tb3.v
 31
 XDG_SESSION_ID=1654
 XDG_RUNTIME_DIR=/run/user/2137213851
@@ -63,8 +63,8 @@ CDSDOC_PROJECT=/opt/cadence/cdsdoc_list/
 A__z="*SHLVL
 0
 3
-1676614738 lab2_tb2.v
-1676611508 Lab2_1.v
+1676615527 lab2_tb3.v
+1676614900 Lab2_2.v
 1553138458 /opt/synopsys/vcs-mx/N-2017.12-SP2-9/linux64/lib/vcsdp.tab
 5
 0 
@@ -72,4 +72,4 @@ A__z="*SHLVL
 1553139291 /opt/synopsys/vcs-mx/N-2017.12-SP2-9/linux64/lib/liberrorinf.so
 1553139229 /opt/synopsys/vcs-mx/N-2017.12-SP2-9/linux64/lib/libsnpsmalloc.so
 1553139863 /opt/synopsys/vcs-mx/N-2017.12-SP2-9/linux64/lib/libvfs.so
-1676616442 simv.daidir
+1676616731 simv.daidir
