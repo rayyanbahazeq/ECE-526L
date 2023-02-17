@@ -1,0 +1,121 @@
+{
+    "CompUnits": {
+        "sCbUH_d": {
+            "mod": "Lab2_1_tb",
+            "archive": "archive.10/_25326_archive_1.a",
+            "checksum": 0,
+            "out": "sCbUH_d.o",
+            "text": 2729,
+            "bytes": 13660,
+            "mode": 4
+        }
+    },
+    "Modules": {
+        "...MASTER...": {
+            "child_modules": {
+                "Lab2_1_tb": 1
+            },
+            "start_perf": [
+                0.35480713844299316,
+                0.064087000000000005,
+                0.056966000000000003,
+                214100,
+                228032,
+                1676619971.9498911,
+                2717288603358278
+            ],
+            "end_perf": [
+                0.39737200736999512,
+                0.068773000000000001,
+                0.064667000000000002,
+                215724,
+                228032,
+                2717288752574138,
+                0,
+                0
+            ],
+            "nQuads": 0,
+            "nMops": 0,
+            "nRouts": 5
+        },
+        "Lab2_1_tb": {
+            "start_perf": [
+                0.39774894714355469,
+                0.068957000000000004,
+                0.064839999999999995,
+                215724,
+                228032,
+                1676619971.9928329,
+                2717288753823232
+            ],
+            "child_modules": {},
+            "Compiled": "Yes",
+            "end_perf": [
+                0.47006797790527344,
+                0.085234000000000004,
+                0.077019000000000004,
+                219776,
+                228032,
+                2717289007322570,
+                12884901889,
+                0
+            ],
+            "Compiled Times": 11,
+            "significant_routs": [
+                [
+                    10,
+                    "R_VCSgd_sCbUH_a",
+                    6634310,
+                    22,
+                    3
+                ]
+            ],
+            "nQuads": 166,
+            "nMops": 308,
+            "nRouts": 29
+        }
+    },
+    "stat": {
+        "ru_self_end": {
+            "ru_utime_sec": 0.095978999999999995,
+            "ru_stime_sec": 0.083460000000000006,
+            "ru_maxrss_kb": 66860,
+            "ru_minflt": 26602,
+            "ru_majflt": 0,
+            "ru_nvcsw": 290,
+            "ru_nivcsw": 34
+        },
+        "ru_childs_end": {
+            "ru_utime_sec": 0.016291,
+            "ru_stime_sec": 0.024101000000000001,
+            "ru_maxrss_kb": 15412,
+            "ru_minflt": 6906,
+            "ru_majflt": 0,
+            "ru_nvcsw": 22,
+            "ru_nivcsw": 8
+        },
+        "cpu_cycles_end": 2717289267604714,
+        "peak_mem_kb": 228032
+    },
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        }
+    },
+    "ObjArchives": [
+        {
+            "objects": [
+                [
+                    "sCbUH_d.o",
+                    13660
+                ],
+                [
+                    "amcQwB.o",
+                    99388
+                ]
+            ],
+            "archive": "archive.10/_25326_archive_1.a",
+            "size": 113048
+        }
+    ]
+}
