@@ -1,7 +1,7 @@
 Command: /home/users14/ab192644/Documents/ece524/lab4_1/./simv -l lab.log
 Chronologic VCS simulator copyright 1991-2017
 Contains Synopsys proprietary information.
-Compiler version N-2017.12-SP2-9_Full64; Runtime version N-2017.12-SP2-9_Full64;  Mar 11 18:20 2023
+Compiler version N-2017.12-SP2-9_Full64; Runtime version N-2017.12-SP2-9_Full64;  Mar 11 18:38 2023
 VCD+ Writer N-2017.12-SP2-9_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
 	***Starting testbench for register***
                    0: ena = x, clk = x, rst = x, data = xxxxxxxx, out = 0xxxxxxxx
@@ -20,5 +20,5 @@ $finish called from file "register_tb.v", line 34.
 $finish at simulation time                36000
            V C S   S i m u l a t i o n   R e p o r t 
 Time: 3600000 ps
-CPU Time:      0.240 seconds;       Data structure size:   0.0Mb
-Sat Mar 11 18:20:11 2023
+CPU Time:      0.210 seconds;       Data structure size:   0.0Mb
+Sat Mar 11 18:38:34 2023
