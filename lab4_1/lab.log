@@ -1,23 +1,24 @@
 Command: /home/users14/ab192644/Documents/ece524/lab4_1/./simv -l lab.log
 Chronologic VCS simulator copyright 1991-2017
 Contains Synopsys proprietary information.
-Compiler version N-2017.12-SP2-9_Full64; Runtime version N-2017.12-SP2-9_Full64;  Mar 11 17:14 2023
+Compiler version N-2017.12-SP2-9_Full64; Runtime version N-2017.12-SP2-9_Full64;  Mar 11 18:20 2023
 VCD+ Writer N-2017.12-SP2-9_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
+	***Starting testbench for register***
                    0: ena = x, clk = x, rst = x, data = xxxxxxxx, out = 0xxxxxxxx
                  100: ena = x, clk = x, rst = 0, data = 00000000, out = 0xxxxxxxx
                  122: ena = x, clk = x, rst = 0, data = 00000000, out = 000000000
                  200: ena = x, clk = x, rst = 1, data = 00000000, out = 000000000
                  300: ena = 1, clk = x, rst = 1, data = 00000001, out = 000000000
                  335: ena = 1, clk = x, rst = 1, data = 00000001, out = 00000000x
-Test 1 failed!
-                 500: ena = 1, clk = x, rst = 1, data = 11111111, out = 00000000x
-Test 2 failed!
-                 700: ena = 1, clk = x, rst = 0, data = 11111111, out = 00000000x
-                 722: ena = 1, clk = x, rst = 0, data = 11111111, out = 000000000
+Test 1: 0
+Test 1 passed!
+Test 2: 0
+Test 2 passed!
+Test 3: 1
 Test 3 passed!
-$finish called from file "register_tb.v", line 37.
-$finish at simulation time                 8000
+$finish called from file "register_tb.v", line 34.
+$finish at simulation time                36000
            V C S   S i m u l a t i o n   R e p o r t 
-Time: 800000 ps
-CPU Time:      0.210 seconds;       Data structure size:   0.0Mb
-Sat Mar 11 17:14:50 2023
+Time: 3600000 ps
+CPU Time:      0.240 seconds;       Data structure size:   0.0Mb
+Sat Mar 11 18:20:11 2023

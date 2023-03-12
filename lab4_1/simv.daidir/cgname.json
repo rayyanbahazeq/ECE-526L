@@ -1,15 +1,15 @@
 {
-    "dff": [
-        "dff",
-        "IWW0i",
-        "module",
-        1
-    ],
     "register_tb": [
         "register_tb",
         "qvaeK",
         "module",
         2
+    ],
+    "dff": [
+        "dff",
+        "IWW0i",
+        "module",
+        1
     ],
     "...MASTER...": [
         "SIM",
