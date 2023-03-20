@@ -1,0 +1,115 @@
+Command: /home/users14/ab192644/Documents/ece524/lab5/./simv -l lab.log
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-SP2-9_Full64; Runtime version N-2017.12-SP2-9_Full64;  Mar 20 00:11 2023
+VCD+ Writer N-2017.12-SP2-9_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
+Time                 2050: count =   0 clk = 1 rst = 0 en = 0
+Time                 4150: count =   1 clk = 1 rst = 1 en = 1
+Time                 4250: count =   2 clk = 1 rst = 1 en = 1
+Time                 4350: count =   3 clk = 1 rst = 1 en = 1
+Time                 4450: count =   4 clk = 1 rst = 1 en = 1
+Time                 4550: count =   5 clk = 1 rst = 1 en = 1
+Time                 4650: count =   6 clk = 1 rst = 1 en = 1
+Time                 4750: count =   7 clk = 1 rst = 1 en = 1
+Time                 4850: count =   8 clk = 1 rst = 1 en = 1
+Time                 4950: count =   9 clk = 1 rst = 1 en = 1
+Time                 5050: count =  10 clk = 1 rst = 1 en = 1
+Time                 5150: count =  11 clk = 1 rst = 1 en = 1
+Time                 5250: count =  12 clk = 1 rst = 1 en = 1
+Time                 5350: count =  13 clk = 1 rst = 1 en = 1
+Time                 5450: count =  14 clk = 1 rst = 1 en = 1
+Time                 5550: count =  15 clk = 1 rst = 1 en = 1
+Time                 5650: count =  16 clk = 1 rst = 1 en = 1
+Time                 5750: count =  17 clk = 1 rst = 1 en = 1
+Time                 5850: count =  18 clk = 1 rst = 1 en = 1
+Time                 5950: count =  19 clk = 1 rst = 1 en = 1
+Time                 6050: count =  20 clk = 1 rst = 1 en = 1
+Time                 6150: count =  21 clk = 1 rst = 1 en = 1
+Time                 6250: count = 240 clk = 1 rst = 1 en = 1
+Time                 6450: count = 241 clk = 1 rst = 1 en = 1
+Time                 6550: count = 242 clk = 1 rst = 1 en = 1
+Time                 6650: count = 243 clk = 1 rst = 1 en = 1
+Time                 6750: count = 244 clk = 1 rst = 1 en = 1
+Time                 6850: count = 245 clk = 1 rst = 1 en = 1
+Time                 6950: count = 246 clk = 1 rst = 1 en = 1
+Time                 7050: count = 247 clk = 1 rst = 1 en = 1
+Time                 7150: count = 248 clk = 1 rst = 1 en = 1
+Time                 7250: count = 249 clk = 1 rst = 1 en = 1
+Time                 7350: count = 250 clk = 1 rst = 1 en = 1
+Time                 7450: count = 251 clk = 1 rst = 1 en = 1
+Time                 7550: count = 252 clk = 1 rst = 1 en = 1
+Time                 7650: count = 253 clk = 1 rst = 1 en = 1
+Time                 7750: count = 254 clk = 1 rst = 1 en = 1
+Time                 7850: count = 255 clk = 1 rst = 1 en = 1
+Time                 7950: count =   0 clk = 1 rst = 1 en = 1
+Time                 8050: count =   1 clk = 1 rst = 1 en = 1
+Time                 8150: count =   2 clk = 1 rst = 1 en = 1
+Time                 8250: count =   3 clk = 1 rst = 1 en = 1
+Time                 8350: count =   4 clk = 1 rst = 1 en = 1
+Time                 8450: count =   5 clk = 1 rst = 1 en = 1
+Time                 8550: count =   6 clk = 1 rst = 1 en = 1
+Time                 8650: count =   7 clk = 1 rst = 1 en = 1
+Time                 8750: count =   8 clk = 1 rst = 1 en = 1
+Time                 8850: count =   9 clk = 1 rst = 1 en = 1
+Time                 8950: count =  10 clk = 1 rst = 1 en = 1
+Time                 9050: count =  11 clk = 1 rst = 1 en = 1
+Time                 9150: count =  12 clk = 1 rst = 1 en = 1
+Time                 9250: count =  13 clk = 1 rst = 1 en = 1
+Time                 9350: count =  14 clk = 1 rst = 1 en = 1
+Time                 9450: count =  15 clk = 1 rst = 1 en = 1
+Time                 9550: count =  16 clk = 1 rst = 1 en = 1
+Time                 9650: count =  17 clk = 1 rst = 1 en = 1
+Time                 9750: count =  18 clk = 1 rst = 1 en = 1
+Time                 9850: count =  19 clk = 1 rst = 1 en = 1
+Time                12250: count =  20 clk = 1 rst = 1 en = 1
+Time                12350: count =  21 clk = 1 rst = 1 en = 1
+Time                12450: count =  22 clk = 1 rst = 1 en = 1
+Time                12550: count =  23 clk = 1 rst = 1 en = 1
+Time                12650: count =  24 clk = 1 rst = 1 en = 1
+Time                12750: count =  25 clk = 1 rst = 1 en = 1
+Time                12850: count =  26 clk = 1 rst = 1 en = 1
+Time                12950: count =  27 clk = 1 rst = 1 en = 1
+Time                13050: count =  28 clk = 1 rst = 1 en = 1
+Time                13150: count =  29 clk = 1 rst = 1 en = 1
+Time                13250: count =  30 clk = 1 rst = 1 en = 1
+Time                13350: count =  31 clk = 1 rst = 1 en = 1
+Time                13450: count =  32 clk = 1 rst = 1 en = 1
+Time                13550: count =  33 clk = 1 rst = 1 en = 1
+Time                13650: count =  34 clk = 1 rst = 1 en = 1
+Time                13850: count =   0 clk = 1 rst = 0 en = 0
+Time                16150: count =   1 clk = 1 rst = 1 en = 1
+Time                16250: count =   2 clk = 1 rst = 1 en = 1
+Time                16350: count =   3 clk = 1 rst = 1 en = 1
+Time                16450: count =   4 clk = 1 rst = 1 en = 1
+Time                16550: count =   5 clk = 1 rst = 1 en = 1
+Time                16650: count =   6 clk = 1 rst = 1 en = 1
+Time                16750: count =   7 clk = 1 rst = 1 en = 1
+Time                16850: count =   8 clk = 1 rst = 1 en = 1
+Time                16950: count =   9 clk = 1 rst = 1 en = 1
+Time                17050: count =  10 clk = 1 rst = 1 en = 1
+Time                17150: count =  11 clk = 1 rst = 1 en = 1
+Time                17250: count =  12 clk = 1 rst = 1 en = 1
+Time                17350: count =  13 clk = 1 rst = 1 en = 1
+Time                17450: count =  14 clk = 1 rst = 1 en = 1
+Time                17550: count =  15 clk = 1 rst = 1 en = 1
+Time                17750: count =  16 clk = 1 rst = 1 en = 1
+Time                17850: count =  17 clk = 1 rst = 1 en = 1
+Time                17950: count =  18 clk = 1 rst = 1 en = 1
+Time                18050: count =  19 clk = 1 rst = 1 en = 1
+Time                18150: count =  20 clk = 1 rst = 1 en = 1
+Time                18250: count =  21 clk = 1 rst = 1 en = 1
+Time                18350: count =  22 clk = 1 rst = 1 en = 1
+Time                18450: count =  23 clk = 1 rst = 1 en = 1
+Time                18550: count =  24 clk = 1 rst = 1 en = 1
+Time                18650: count =  25 clk = 1 rst = 1 en = 1
+Time                18750: count =  26 clk = 1 rst = 1 en = 1
+Time                18850: count =  27 clk = 1 rst = 1 en = 1
+Time                18950: count =  28 clk = 1 rst = 1 en = 1
+Time                19050: count =  29 clk = 1 rst = 1 en = 1
+Time                19150: count =  30 clk = 1 rst = 1 en = 1
+$finish called from file "counter8_tb.v", line 91.
+$finish at simulation time                19300
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1930000 ps
+CPU Time:      0.220 seconds;       Data structure size:   0.0Mb
+Mon Mar 20 00:11:41 2023
