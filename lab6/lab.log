@@ -1,41 +1,20 @@
 Command: /home/users14/ab192644/Documents/ece524/lab6/./simv -l lab.log
 Chronologic VCS simulator copyright 1991-2017
 Contains Synopsys proprietary information.
-Compiler version N-2017.12-SP2-9_Full64; Runtime version N-2017.12-SP2-9_Full64;  Apr  4 23:38 2023
-VCD+ Writer N-2017.12-SP2-9_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
-Test 1:
-a1=x, b1=x, sel1=x, out1=x
-Time:                    0, mux1: 0, mux2: 000x, mux3: 0000x, mux4: 00000x
-Time:                   10, mux1: 1, mux2: 000x, mux3: 0000x, mux4: 00000x
-Time:                   30, mux1: 0, mux2: 000x, mux3: 0000x, mux4: 00000x
-Test 2:
-a2=xxxx, b2=xxxx, sel2=x, out2=000x
-Time:                   40, mux1: 0, mux2: 0001, mux3: 0000x, mux4: 00000x
-Error: "mux_tb.v", 66: testbench: at time 60000 ps
-Test 2 Failed
-Error: "mux_tb.v", 70: testbench: at time 70000 ps
-Test 2 Failed
-Time:                   70, mux1: 0, mux2: 000x, mux3: 0000x, mux4: 00000x
-Test 3:
-a3=xxxxx, b3=xxxxx, sel3=x, out3=0000x
-Time:                   80, mux1: 0, mux2: 000x, mux3: 00001, mux4: 00000x
-Error: "mux_tb.v", 87: testbench: at time 100000 ps
-Test 3 Failed
-Error: "mux_tb.v", 91: testbench: at time 110000 ps
-Test 3 Failed
-Time:                  110, mux1: 0, mux2: 000x, mux3: 0000x, mux4: 00000x
-Test 4:
-a4=xxxxxx, b4=xxxxxx, sel4=x, out4=00000x
-Time:                  120, mux1: 0, mux2: 000x, mux3: 0000x, mux4: 000001
-Error: "mux_tb.v", 108: testbench: at time 140000 ps
-Test 4 Failed
-Error: "mux_tb.v", 112: testbench: at time 150000 ps
-Test 4 Failed
-Time:                  150, mux1: 0, mux2: 000x, mux3: 0000x, mux4: 00000x
-All tests passed!
-$finish called from file "mux_tb.v", line 120.
-$finish at simulation time               160000
+Compiler version N-2017.12-SP2-9_Full64; Runtime version N-2017.12-SP2-9_Full64;  Apr  5 01:27 2023
+SEL=0 A=101010 B=011001 OUT1=zzzzzx OUT2=xxxx OUT3=xxxxx OUT4=00000x
+SEL=0 A=101010 B=011001 OUT1=zzzzz1 OUT2=0101 OUT3=x1010 OUT4=000000
+SEL=1 A=101010 B=011001 OUT1=zzzzz1 OUT2=0101 OUT3=x1010 OUT4=000000
+SEL=1 A=101010 B=011001 OUT1=zzzzzz OUT2=1100 OUT3=x0110 OUT4=000001
+SEL=x A=101010 B=011001 OUT1=zzzzzz OUT2=1100 OUT3=x0110 OUT4=000001
+SEL=x A=101010 B=011001 OUT1=zzzzzx OUT2=x10x OUT3=xxx10 OUT4=00000x
+SEL=x A=101010 B=101010 OUT1=zzzzzx OUT2=x10x OUT3=xxx10 OUT4=00000x
+SEL=x A=101010 B=101010 OUT1=zzzzzx OUT2=0101 OUT3=x1010 OUT4=000000
+SEL=x A=111000 B=000111 OUT1=zzzzzx OUT2=0101 OUT3=x1010 OUT4=000000
+SEL=x A=111000 B=000111 OUT1=zzzzzx OUT2=xxxx OUT3=xxxxx OUT4=00000x
+$finish called from file "mux_tb.v", line 38.
+$finish at simulation time                50000
            V C S   S i m u l a t i o n   R e p o r t 
-Time: 160000 ps
-CPU Time:      0.220 seconds;       Data structure size:   0.0Mb
-Tue Apr  4 23:38:21 2023
+Time: 50000 ps
+CPU Time:      0.230 seconds;       Data structure size:   0.0Mb
+Wed Apr  5 01:27:10 2023
