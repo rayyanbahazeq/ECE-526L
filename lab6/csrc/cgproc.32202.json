@@ -1,0 +1,153 @@
+{
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        },
+        "RZvU4_d": {
+            "icPath": "csrc"
+        }
+    },
+    "Modules": {
+        "...MASTER...": {
+            "start_perf": [
+                0.38669800758361816,
+                0.068340999999999999,
+                0.066269999999999996,
+                208804,
+                223608,
+                1680674295.6604559,
+                16701644273646754
+            ],
+            "child_modules": {
+                "testbench": 1
+            },
+            "nRouts": 5,
+            "nMops": 0,
+            "end_perf": [
+                0.42652201652526855,
+                0.075717999999999994,
+                0.070601999999999998,
+                210624,
+                223608,
+                16701644413265896,
+                0,
+                0
+            ],
+            "nQuads": 0
+        },
+        "mux": {
+            "start_perf": [
+                0.42690300941467285,
+                0.075905,
+                0.070776000000000006,
+                210624,
+                223608,
+                1680674295.7006609,
+                16701644414536972
+            ],
+            "Compiled Times": 2,
+            "Compiled": "Yes",
+            "child_modules": {},
+            "nRouts": 14,
+            "nMops": 130,
+            "end_perf": [
+                0.46886301040649414,
+                0.079873,
+                0.078836000000000003,
+                211652,
+                223608,
+                16701644561629320,
+                8589934593,
+                0
+            ],
+            "nQuads": 79
+        },
+        "testbench": {
+            "start_perf": [
+                0.46902108192443848,
+                0.079952999999999996,
+                0.078914999999999999,
+                211652,
+                223608,
+                1680674295.742779,
+                16701644562134650
+            ],
+            "Compiled Times": 2,
+            "child_modules": {
+                "mux": 4
+            },
+            "Compiled": "Yes",
+            "significant_routs": [
+                [
+                    30,
+                    "R_VCSgd_iAVhC_1e",
+                    7395580,
+                    166,
+                    13
+                ]
+            ],
+            "nRouts": 42,
+            "nMops": 913,
+            "end_perf": [
+                0.52669501304626465,
+                0.104367,
+                0.084733000000000003,
+                214956,
+                223608,
+                16701644764308710,
+                12884901889,
+                0
+            ],
+            "nQuads": 414
+        }
+    },
+    "CompUnits": {
+        "iAVhC_d": {
+            "mod": "testbench",
+            "out": "iAVhC_d.o",
+            "bytes": 26206,
+            "text": 6786,
+            "checksum": 0,
+            "mode": 4,
+            "archive": "archive.1/_32202_archive_1.a"
+        }
+    },
+    "stat": {
+        "ru_self_end": {
+            "ru_maxrss_kb": 75528,
+            "ru_utime_sec": 0.114331,
+            "ru_nivcsw": 231,
+            "ru_stime_sec": 0.091961000000000001,
+            "ru_minflt": 25513,
+            "ru_majflt": 0,
+            "ru_nvcsw": 308
+        },
+        "ru_childs_end": {
+            "ru_maxrss_kb": 22496,
+            "ru_utime_sec": 0.016157000000000001,
+            "ru_nivcsw": 8,
+            "ru_stime_sec": 0.023233,
+            "ru_minflt": 6904,
+            "ru_majflt": 0,
+            "ru_nvcsw": 21
+        },
+        "peak_mem_kb": 223608,
+        "cpu_cycles_end": 16701645033001262
+    },
+    "ObjArchives": [
+        {
+            "objects": [
+                [
+                    "iAVhC_d.o",
+                    26206
+                ],
+                [
+                    "amcQwB.o",
+                    101032
+                ]
+            ],
+            "archive": "archive.1/_32202_archive_1.a",
+            "size": 127238
+        }
+    ]
+}

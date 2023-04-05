@@ -1,0 +1,33 @@
+Command: /home/users14/ab192644/Documents/ece524/lab6/./simv -l lab.log
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-SP2-9_Full64; Runtime version N-2017.12-SP2-9_Full64;  Apr  4 22:58 2023
+VCD+ Writer N-2017.12-SP2-9_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
+Time:                    0, mux1: 0, mux2: 000x, mux3: 0000x, mux4: 00000x
+Time:                   10, mux1: 1, mux2: 000x, mux3: 0000x, mux4: 00000x
+Time:                   30, mux1: 0, mux2: 000x, mux3: 0000x, mux4: 00000x
+Time:                   40, mux1: 0, mux2: 0001, mux3: 0000x, mux4: 00000x
+Error: "mux_tb.v", 62: testbench: at time 60000 ps
+Test 2 Failed
+Error: "mux_tb.v", 66: testbench: at time 70000 ps
+Test 2 Failed
+Time:                   70, mux1: 0, mux2: 000x, mux3: 0000x, mux4: 00000x
+Time:                   80, mux1: 0, mux2: 000x, mux3: 00001, mux4: 00000x
+Error: "mux_tb.v", 81: testbench: at time 100000 ps
+Test 3 Failed
+Error: "mux_tb.v", 85: testbench: at time 110000 ps
+Test 3 Failed
+Time:                  110, mux1: 0, mux2: 000x, mux3: 0000x, mux4: 00000x
+Time:                  120, mux1: 0, mux2: 000x, mux3: 0000x, mux4: 000001
+Error: "mux_tb.v", 100: testbench: at time 140000 ps
+Test 4 Failed
+Error: "mux_tb.v", 104: testbench: at time 150000 ps
+Test 4 Failed
+Time:                  150, mux1: 0, mux2: 000x, mux3: 0000x, mux4: 00000x
+All tests passed!
+$finish called from file "mux_tb.v", line 112.
+$finish at simulation time               160000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 160000 ps
+CPU Time:      0.270 seconds;       Data structure size:   0.0Mb
+Tue Apr  4 22:58:28 2023
