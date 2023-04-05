@@ -32,7 +32,9 @@ module testbench;
     $vcdpluson;
     $monitor("Time: %d, mux1: %b, mux2: %b, mux3: %b, mux4: %b", $time, out1, out2, out3, out4);
 
-   // test 1: size1 
+    // test 1: size1 
+    $display("Test 1:");
+    $display("a1=%b, b1=%b, sel1=%b, out1=%b", a1, b1, sel1, out1);
     a1 = 1'b0;
     b1 = 1'b1;
     sel1 = 1'b0;
@@ -51,7 +53,9 @@ module testbench;
     #10;
     if(out1 != 1'bx) $error("Test 1 Failed");
 
-   // test 2: size2
+    // test 2: size2
+    $display("Test 2:");
+    $display("a2=%b, b2=%b, sel2=%b, out2=%b", a2, b2, sel2, out2);
     a2 = 2'b01;
     b2 = 2'b11;
     sel2 = 1'b0;
@@ -70,7 +74,9 @@ module testbench;
     #10;
     if(out2 != 2'bx) $error("Test 2 Failed");
 
-   // test 3: size3
+    // test 3: size3
+    $display("Test 3:");
+    $display("a3=%b, b3=%b, sel3=%b, out3=%b", a3, b3, sel3, out3); 
     a3 = 3'b001;
     b3 = 3'b111;
     sel3 = 1'b0;
@@ -89,7 +95,9 @@ module testbench;
     #10;
     if(out3 != 3'bx) $error("Test 3 Failed");
 
-   // test 4: size4
+    // test 4: size4
+    $display("Test 4:");
+    $display("a4=%b, b4=%b, sel4=%b, out4=%b", a4, b4, sel4, out4);
     a4 = 4'b0001;
     b4 = 4'b1111;
     sel4 = 1'b0;
