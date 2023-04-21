@@ -1,0 +1,2 @@
+sid register_file_tb
+bcid 0 0 WIDTH,32 OPT_CONST,8 RET
