@@ -1,0 +1,46 @@
+Command: /home/users14/ab192644/Documents/ece524/lab8/./simv -l lab.logexerror
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-SP2-9_Full64; Runtime version N-2017.12-SP2-9_Full64;  Apr 25 23:05 2023
+Forcing error at simulation time 1920
+VCD+ Writer N-2017.12-SP2-9_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
+At time                    0: data_in= 0 c1= 0 c2= 0 c3= 0 c4= 0 final_sum=   x non_hierarchical_sum=   x
+At time                25000: data_in= 0 c1= 0 c2= 0 c3= 0 c4= 0 final_sum=   x non_hierarchical_sum=   0
+At time                35000: data_in= 0 c1= 0 c2= 0 c3= 0 c4= 0 final_sum=   0 non_hierarchical_sum=   0
+At time                40000: data_in= 0 c1= 0 c2= 0 c3= 0 c4= 1 final_sum=   0 non_hierarchical_sum=   0
+At time                80000: data_in= 0 c1= 0 c2= 0 c3= 0 c4= 2 final_sum=   0 non_hierarchical_sum=   0
+At time               120000: data_in= 0 c1= 0 c2= 0 c3= 0 c4= 3 final_sum=   0 non_hierarchical_sum=   0
+At time               160000: data_in= 0 c1= 0 c2= 0 c3= 0 c4= 4 final_sum=   0 non_hierarchical_sum=   0
+At time               200000: data_in= 0 c1= 0 c2= 0 c3= 0 c4= 5 final_sum=   0 non_hierarchical_sum=   0
+At time               240000: data_in= 0 c1= 0 c2= 0 c3= 0 c4= 6 final_sum=   0 non_hierarchical_sum=   0
+At time               280000: data_in= 0 c1= 0 c2= 0 c3= 0 c4= 7 final_sum=   0 non_hierarchical_sum=   0
+At time               320000: data_in= 0 c1= 0 c2= 0 c3= 0 c4= 8 final_sum=   0 non_hierarchical_sum=   0
+At time               360000: data_in= 0 c1= 0 c2= 0 c3= 0 c4= 9 final_sum=   0 non_hierarchical_sum=   0
+At time               400000: data_in= 0 c1= 0 c2= 0 c3= 0 c4=10 final_sum=   0 non_hierarchical_sum=   0
+At time               440000: data_in= 0 c1= 0 c2= 0 c3= 0 c4=11 final_sum=   0 non_hierarchical_sum=   0
+At time               480000: data_in= 0 c1= 0 c2= 0 c3= 0 c4=12 final_sum=   0 non_hierarchical_sum=   0
+At time               520000: data_in= 0 c1= 0 c2= 0 c3= 0 c4=13 final_sum=   0 non_hierarchical_sum=   0
+At time               560000: data_in= 0 c1= 0 c2= 0 c3= 0 c4=14 final_sum=   0 non_hierarchical_sum=   0
+At time               600000: data_in= 0 c1= 0 c2= 0 c3= 0 c4=15 final_sum=   0 non_hierarchical_sum=   0
+At time               640000: data_in= 0 c1= 0 c2= 0 c3= 1 c4= 0 final_sum=   0 non_hierarchical_sum=   0
+At time          31457000000: data_in=11 c1=15 c2=15 c3=15 c4= 9 final_sum= 594 non_hierarchical_sum= 583
+At time          31457005000: data_in=11 c1=15 c2=15 c3=15 c4= 9 final_sum= 594 non_hierarchical_sum= 594
+At time          31457040000: data_in=11 c1=15 c2=15 c3=15 c4=10 final_sum= 605 non_hierarchical_sum= 594
+At time          31457045000: data_in=11 c1=15 c2=15 c3=15 c4=10 final_sum= 605 non_hierarchical_sum= 605
+At time          31457080000: data_in=11 c1=15 c2=15 c3=15 c4=11 final_sum= 616 non_hierarchical_sum= 605
+At time          31457085000: data_in=11 c1=15 c2=15 c3=15 c4=11 final_sum= 616 non_hierarchical_sum= 616
+At time          31457120000: data_in=11 c1=15 c2=15 c3=15 c4=12 final_sum= 627 non_hierarchical_sum= 616
+At time          31457125000: data_in=11 c1=15 c2=15 c3=15 c4=12 final_sum= 627 non_hierarchical_sum= 627
+At time          31457160000: data_in=11 c1=15 c2=15 c3=15 c4=13 final_sum= 638 non_hierarchical_sum= 627
+At time          31457165000: data_in=11 c1=15 c2=15 c3=15 c4=13 final_sum= 638 non_hierarchical_sum= 638
+At time          31457200000: data_in=11 c1=15 c2=15 c3=15 c4=14 final_sum= 649 non_hierarchical_sum= 638
+At time          31457205000: data_in=11 c1=15 c2=15 c3=15 c4=14 final_sum= 649 non_hierarchical_sum= 649
+At time          31457240000: data_in=11 c1=15 c2=15 c3=15 c4=15 final_sum= 660 non_hierarchical_sum= 649
+At time          31457245000: data_in=11 c1=15 c2=15 c3=15 c4=15 final_sum= 660 non_hierarchical_sum= 660
+Error at time          31457280000: data_in=11 c1=15 c2=15 c3=15 c4=15 final_sum=   1 expected_sum= 660
+$finish called from file "exhaustive_tb.v", line 80.
+$finish at simulation time          31457280000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 31457280000 ps
+CPU Time:      1.720 seconds;       Data structure size:   0.0Mb
+Tue Apr 25 23:05:09 2023

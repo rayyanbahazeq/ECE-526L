@@ -1,0 +1,20 @@
+Command: /home/users14/ab192644/Documents/ece524/lab8/./simv -l lab.loginex
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-SP2-9_Full64; Runtime version N-2017.12-SP2-9_Full64;  Apr 25 23:02 2023
+VCD+ Writer N-2017.12-SP2-9_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
+At time                10000: data_in= 0 c1= 0 c2= 0 c3= 0 c4= 0 final_sum=   x
+At time                35000: data_in= 0 c1= 0 c2= 0 c3= 0 c4= 0 final_sum=   0
+At time                60000: data_in=15 c1=15 c2=15 c3=15 c4=15 final_sum=   0
+At time                65000: data_in=15 c1=15 c2=15 c3=15 c4=15 final_sum= 225
+At time                75000: data_in=15 c1=15 c2=15 c3=15 c4=15 final_sum= 450
+At time                85000: data_in=15 c1=15 c2=15 c3=15 c4=15 final_sum= 675
+At time                95000: data_in=15 c1=15 c2=15 c3=15 c4=15 final_sum= 900
+At time               100000: data_in=10 c1=12 c2= 6 c3= 9 c4= 6 final_sum= 495
+At time               105000: data_in=10 c1=12 c2= 6 c3= 9 c4= 6 final_sum= 435
+$finish called from file "inexhaustive_tb.v", line 47.
+$finish at simulation time               110000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 110000 ps
+CPU Time:      0.230 seconds;       Data structure size:   0.0Mb
+Tue Apr 25 23:02:30 2023
