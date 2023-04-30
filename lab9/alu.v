@@ -1,7 +1,8 @@
 `timescale 1ns/100ps
 
 module alu #(
-    parameter WIDTH = 8) (
+    parameter WIDTH = 8,
+    parameter SIGNED_OPERANDS =0) (
     input CLK, EN, OE,
     input [3:0] OPCODE,
     input [WIDTH-1:0] A, B,
@@ -9,28 +10,27 @@ module alu #(
     output reg CF, OF, SF, ZF
 );
 
-   
     localparam ADD_OP  = 4'b0010;
     localparam SUB_OP  = 4'b0011;
     localparam AND_OP  = 4'b0100;
     localparam OR_OP   = 4'b0101;
     localparam XOR_OP  = 4'b0110;
     localparam NOTA_OP = 4'b0111;
-    
-`ifdef SIGNED_OPERANDS
-    reg signed [WIDTH-1:0] result;
-    reg signed [WIDTH:0] ext_result;
-`else
+
     reg [WIDTH-1:0] result;
     reg [WIDTH:0] ext_result;
-`endif
+    reg signed [WIDTH-1:0] signed_A, signed_B;
+    reg signed [WIDTH:0] signed_ext_result;
 
     always @(posedge CLK) begin
         if (EN) begin
+            signed_A = A;
+            signed_B = B;
             case (OPCODE)
                 ADD_OP: begin
 `ifdef SIGNED_OPERANDS
-                    ext_result = $signed({1'b0, A}) + $signed({1'b0, B});
+                    signed_ext_result = signed_A + signed_B;
+                    ext_result = signed_ext_result;
 `else
                     ext_result = {1'b0, A} + {1'b0, B};
 `endif
@@ -41,7 +41,8 @@ module alu #(
                 
                 SUB_OP: begin
 `ifdef SIGNED_OPERANDS
-                    ext_result = $signed({1'b0, A}) - $signed({1'b0, B});
+                    signed_ext_result = signed_A - signed_B;
+                    ext_result = signed_ext_result;
 `else
                     ext_result = {1'b0, A} - {1'b0, B};
 `endif

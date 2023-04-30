@@ -1,0 +1,112 @@
+{
+    "Modules": {
+        "...MASTER...": {
+            "start_perf": [
+                0.50989985466003418,
+                0.081882999999999997,
+                0.057381000000000001,
+                208964,
+                222736,
+                1682896412.6766059,
+                24487932971578440
+            ],
+            "nRouts": 5,
+            "nMops": 0,
+            "nQuads": 0,
+            "child_modules": {
+                "tb_alu": 1
+            },
+            "end_perf": [
+                0.54895186424255371,
+                0.085876999999999995,
+                0.064407000000000006,
+                210460,
+                222736,
+                24487933108617962,
+                0,
+                0
+            ]
+        },
+        "tb_alu": {
+            "start_perf": [
+                0.54931497573852539,
+                0.085876999999999995,
+                0.064749000000000001,
+                210460,
+                222736,
+                1682896412.7160211,
+                24487933109829470
+            ],
+            "nRouts": 83,
+            "nMops": 1369,
+            "nQuads": 564,
+            "child_modules": {},
+            "Compiled Times": 39,
+            "Compiled": "Yes",
+            "end_perf": [
+                0.66151189804077148,
+                0.127888,
+                0.076732999999999996,
+                217888,
+                222736,
+                24487933502823324,
+                12884901889,
+                0
+            ]
+        }
+    },
+    "CompUnits": {
+        "YRR5F_d": {
+            "mod": "tb_alu",
+            "text": 9755,
+            "out": "YRR5F_d.o",
+            "bytes": 25230,
+            "mode": 4,
+            "archive": "archive.44/_13864_archive_1.a",
+            "checksum": 0
+        }
+    },
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.44/_13864_archive_1.a",
+            "size": 125754,
+            "objects": [
+                [
+                    "YRR5F_d.o",
+                    25230
+                ],
+                [
+                    "amcQwB.o",
+                    100524
+                ]
+            ]
+        }
+    ],
+    "stat": {
+        "ru_self_end": {
+            "ru_majflt": 0,
+            "ru_maxrss_kb": 78804,
+            "ru_utime_sec": 0.13692299999999999,
+            "ru_nivcsw": 35,
+            "ru_stime_sec": 0.082840999999999998,
+            "ru_minflt": 26332,
+            "ru_nvcsw": 340
+        },
+        "ru_childs_end": {
+            "ru_majflt": 0,
+            "ru_maxrss_kb": 22508,
+            "ru_utime_sec": 0.019026999999999999,
+            "ru_nivcsw": 9,
+            "ru_stime_sec": 0.019709000000000001,
+            "ru_minflt": 6906,
+            "ru_nvcsw": 22
+        },
+        "cpu_cycles_end": 24487933772317270,
+        "peak_mem_kb": 222736
+    }
+}

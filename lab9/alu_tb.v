@@ -1,7 +1,8 @@
 `timescale 1ns/100ps
-module tb_alu;
- //`define SIGNED_OPERANDS
 
+module tb_alu;
+
+// `define SIGNED_OPERANDS
     reg clk;
     reg en;
     reg oe;
@@ -10,13 +11,16 @@ module tb_alu;
     wire [7:0] alu_out;
     wire cf, of, sf, zf;
 
-    
-    alu uut (
-        .CLK(clk), .EN(en), .OE(oe), .OPCODE(opcode),
-        .A(a), .B(b),
-        .ALU_OUT(alu_out), .CF(cf), .OF(of), .SF(sf), .ZF(zf)
-    );
-
+    `ifdef SIGNED_OPERANDS
+    alu #(
+    .WIDTH(8),
+    .SIGNED_INPUTS(1)
+) uut ( `else 
+           alu uut ( 
+        `endif 
+    .CLK(clk), .EN(en), .OE(oe), .OPCODE(opcode),
+    .A(a), .B(b),
+    .ALU_OUT(alu_out), .CF(cf), .OF(of), .SF(sf), .ZF(zf));
     
     function [31:0] opcode_name;
         input [3:0] opcode;
@@ -40,58 +44,94 @@ module tb_alu;
 
 
    
-    initial begin
+   initial begin
 
-        $vcdpluson;       
-        $monitor("opcode: %b, a: %d, b: %d, ALU_OUT: %d, CF: %b, OF: %b, SF: %b, ZF: %b", opcode, a, b, alu_out, cf, of, sf, zf);
+    $vcdpluson;
+    $monitor("Time: %0t | Opcode: %b | A: %h | B: %h | ALU_OUT: %h | CF: %b | OF: %b | SF: %b | ZF: %b", $time, opcode, a, b, alu_out, cf, of, sf, zf);
+ 
+   clk = 0;
+    en = 1;
+    oe = 1;
+    opcode = 4'b0000;
+    a = 8'b0000_0000;
+    b = 8'b0000_0000;
 
-       
-        clk = 0;
-        en = 1;
-        oe = 1;
-        opcode = 4'b0000;
-        a = 8'b0000_0000;
-        b = 8'b0000_0000;
+    #5;
 
-       
-        #5;
-        opcode = 4'b0010;
-        a = 8'b0101_0101;
-        b = 8'b0011_1100;
-        en = 1;
-        oe = 1;
-        #10;
-        opcode = 4'b0011;
-        a = 8'b1001_0011;
-        b = 8'b0101_1010;
-        en = 1;
-        oe = 1;
-        #10;
-        opcode = 4'b0100;
-        a = 8'b1100_1100;
-        b = 8'b1010_1010;
-        en = 1;
-        oe = 1;
-        #10;
-        opcode = 4'b0101;
-        a = 8'b1111_0000;
-        b = 8'b0000_1111;
-        en = 1;
-        oe = 1;
-        #10;
-        opcode = 4'b0110;
-        a = 8'b1010_1010;
-        b = 8'b0101_0101;
-        en = 1;
-        oe = 1;
-        #10;
-        opcode = 4'b0111;
-        a = 8'b1111_0000;
-        b = 8'b0000_0000;
-        en = 1;
-        oe = 1;
-        #10;
+   `ifndef SIGNED_OPERANDS
+    opcode = 4'b0010;
+    a = 8'b0101_0101;
+    b = 8'b0011_1100;
+    #10;
 
+    
+    opcode = 4'b0011;
+    a = 8'b1001_0011;
+    b = 8'b0101_1010;
+    #10;
+
+    
+    opcode = 4'b0100;
+    a = 8'b1100_1100;
+    b = 8'b1010_1010;
+    #10;
+
+    
+    opcode = 4'b0101;
+    a = 8'b1111_0000;
+    b = 8'b0000_1111;
+    #10;
+
+    
+    opcode = 4'b0110;
+    a = 8'b1010_1010;
+    b = 8'b0101_0101;
+    #10;
+
+   
+    opcode = 4'b0111;
+    a = 8'b1111_0000;
+    b = 8'b0000_0000;
+    #10;
+   `endif
+   
+   
+    opcode = 4'b0010;
+    a = 8'b1111_1110; 
+    b = 8'b1111_1111; 
+    #10;
+
+   `ifdef SIGNED_OPERANDS
+    opcode = 4'b0011;
+    a = 8'b1111_1110; 
+    b = 8'b1111_1111; 
+    #10;
+
+    
+    opcode = 4'b0100;
+    a = 8'b1100_1100; 
+    b = 8'b1010_1010; 
+    #10;
+
+    
+    opcode = 4'b0101;
+    a = 8'b1111_0000; 
+    b = 8'b0000_1111; 
+    #10;
+
+    
+    opcode = 4'b0110;
+    a = 8'b1010_1010; 
+    b = 8'b0101_0101; 
+    #10;
+
+    
+    opcode = 4'b0111;
+    a = 8'b1111_0000; 
+    b = 8'b0000_0000; 
+    #10;
+
+  
         opcode = 4'b0110;
         a = 8'b1100_1010;
         b = 8'b0101_1010;
@@ -121,8 +161,8 @@ module tb_alu;
         opcode = 4'b0011;
         a = 8'b0111_1111;
         b = 8'b1000_0000;
-        #10; 
-  
+        #10;
+           
         opcode = 4'b0010; a = 8'b1111_1111; b = 8'b0000_0001; #10;
         opcode = 4'b0011; a = 8'b0000_0000; b = 8'b0000_0001; #10;
         opcode = 4'b0011; a = 8'b0111_1111; b = 8'b1000_0000; #10;
@@ -131,10 +171,10 @@ module tb_alu;
         opcode = 4'b0101; a = 8'b1100_1100; b = 8'b0011_0011; #10;
         opcode = 4'b0110; a = 8'b1111_0000; b = 8'b0000_1111; #10;
         opcode = 4'b0111; a = 8'b1000_0001; b = 8'b0000_0000; #10;
-      
-       #10;
-       $finish;
-     end
+       `endif  
+     #10;
+     $finish;
+  end
 endmodule
 
 

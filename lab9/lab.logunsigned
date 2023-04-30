@@ -1,0 +1,19 @@
+Command: /home/users14/ab192644/Documents/ece524/lab9/./simv -l lab.logunsigned
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-SP2-9_Full64; Runtime version N-2017.12-SP2-9_Full64;  Apr 30 16:13 2023
+VCD+ Writer N-2017.12-SP2-9_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
+Time: 0 | Opcode: 0000 | A: 00 | B: 00 | ALU_OUT: xx | CF: x | OF: x | SF: x | ZF: x
+Time: 50 | Opcode: 0010 | A: 55 | B: 3c | ALU_OUT: 91 | CF: 0 | OF: 1 | SF: 1 | ZF: 0
+Time: 150 | Opcode: 0011 | A: 93 | B: 5a | ALU_OUT: 39 | CF: 0 | OF: 1 | SF: 0 | ZF: 0
+Time: 250 | Opcode: 0100 | A: cc | B: aa | ALU_OUT: 88 | CF: 0 | OF: 1 | SF: 1 | ZF: 0
+Time: 350 | Opcode: 0101 | A: f0 | B: 0f | ALU_OUT: ff | CF: 0 | OF: 1 | SF: 1 | ZF: 0
+Time: 450 | Opcode: 0110 | A: aa | B: 55 | ALU_OUT: ff | CF: 0 | OF: 1 | SF: 1 | ZF: 0
+Time: 550 | Opcode: 0111 | A: f0 | B: 00 | ALU_OUT: 0f | CF: 0 | OF: 1 | SF: 0 | ZF: 0
+Time: 650 | Opcode: 0010 | A: fe | B: ff | ALU_OUT: fd | CF: 1 | OF: 0 | SF: 1 | ZF: 0
+$finish called from file "alu_tb.v", line 176.
+$finish at simulation time                  850
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 85000 ps
+CPU Time:      0.210 seconds;       Data structure size:   0.0Mb
+Sun Apr 30 16:13:49 2023
