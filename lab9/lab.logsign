@@ -1,0 +1,32 @@
+Command: /home/users14/ab192644/Documents/ece524/lab9/./simv -l lab.logsign
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-SP2-9_Full64; Runtime version N-2017.12-SP2-9_Full64;  Apr 30 04:46 2023
+VCD+ Writer N-2017.12-SP2-9_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
+opcode: 0000, a:   0, b:   0, ALU_OUT:   x, CF: x, OF: x, SF: x, ZF: x
+opcode: 0010, a:  85, b:  60, ALU_OUT: 145, CF: 0, OF: 1, SF: 1, ZF: 0
+opcode: 0011, a: 147, b:  90, ALU_OUT:  57, CF: 0, OF: 1, SF: 0, ZF: 0
+opcode: 0100, a: 204, b: 170, ALU_OUT: 136, CF: 0, OF: 1, SF: 1, ZF: 0
+opcode: 0101, a: 240, b:  15, ALU_OUT: 255, CF: 0, OF: 1, SF: 1, ZF: 0
+opcode: 0110, a: 170, b:  85, ALU_OUT: 255, CF: 0, OF: 1, SF: 1, ZF: 0
+opcode: 0111, a: 240, b:   0, ALU_OUT:  15, CF: 0, OF: 1, SF: 0, ZF: 0
+opcode: 0110, a: 202, b:  90, ALU_OUT: 144, CF: 0, OF: 1, SF: 1, ZF: 0
+opcode: 0111, a: 165, b:   0, ALU_OUT:  90, CF: 0, OF: 1, SF: 0, ZF: 0
+opcode: 0010, a: 127, b:   1, ALU_OUT: 128, CF: 0, OF: 1, SF: 1, ZF: 0
+opcode: 0010, a: 128, b: 128, ALU_OUT:   0, CF: 1, OF: 1, SF: 0, ZF: 1
+opcode: 0011, a:   0, b:   1, ALU_OUT: 255, CF: 1, OF: 0, SF: 1, ZF: 0
+opcode: 0011, a: 127, b: 128, ALU_OUT: 255, CF: 1, OF: 1, SF: 1, ZF: 0
+opcode: 0010, a: 255, b:   1, ALU_OUT:   0, CF: 1, OF: 0, SF: 0, ZF: 1
+opcode: 0011, a:   0, b:   1, ALU_OUT: 255, CF: 1, OF: 0, SF: 1, ZF: 0
+opcode: 0011, a: 127, b: 128, ALU_OUT: 255, CF: 1, OF: 1, SF: 1, ZF: 0
+opcode: 0010, a: 128, b: 128, ALU_OUT:   0, CF: 1, OF: 1, SF: 0, ZF: 1
+opcode: 0100, a: 170, b:  85, ALU_OUT:   0, CF: 1, OF: 1, SF: 0, ZF: 1
+opcode: 0101, a: 204, b:  51, ALU_OUT: 255, CF: 1, OF: 1, SF: 1, ZF: 0
+opcode: 0110, a: 240, b:  15, ALU_OUT: 255, CF: 1, OF: 1, SF: 1, ZF: 0
+opcode: 0111, a: 129, b:   0, ALU_OUT: 126, CF: 1, OF: 1, SF: 0, ZF: 0
+$finish called from file "alu_tb.v", line 136.
+$finish at simulation time                 2150
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 215000 ps
+CPU Time:      0.220 seconds;       Data structure size:   0.0Mb
+Sun Apr 30 04:46:47 2023
