@@ -1,0 +1,72 @@
+Command: /home/users14/ab192644/Documents/ece524/lab10/./simv -l lab.log
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-SP2-9_Full64; Runtime version N-2017.12-SP2-9_Full64;  May 13 14:14 2023
+VCD+ Writer N-2017.12-SP2-9_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
+At time                    0, data_in =   0, data_out =   0, valid = x, empty = 1, almost_empty = 1, full = 0, almost_full = x, underflow = x, overflow = x, count =          x
+At time                 5000, data_in =   0, data_out =   0, valid = 0, empty = 1, almost_empty = 1, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time                15000, data_in =   0, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time                20000, data_in =   1, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time                30000, data_in =   2, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time                40000, data_in =   3, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time                50000, data_in =   4, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time                60000, data_in =   5, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time                70000, data_in =   6, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time                80000, data_in =   7, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time                90000, data_in =   8, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               100000, data_in =   9, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               110000, data_in =  10, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               120000, data_in =  11, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               130000, data_in =  12, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               140000, data_in =  13, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               150000, data_in =  14, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               160000, data_in =  15, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               170000, data_in =  16, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               180000, data_in =  17, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               190000, data_in =  18, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               200000, data_in =  19, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               210000, data_in =  20, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               220000, data_in =  21, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               230000, data_in =  22, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               240000, data_in =  23, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               250000, data_in =  24, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               260000, data_in =  25, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               270000, data_in =  26, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               280000, data_in =  27, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               290000, data_in =  28, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               300000, data_in =  29, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               310000, data_in =  30, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               315000, data_in =  30, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 1, almost_full = 1, underflow = 0, overflow = 0, count =          x
+At time               320000, data_in =  31, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 1, almost_full = 1, underflow = 0, overflow = 0, count =          x
+At time               325000, data_in =  31, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 1, almost_full = 1, underflow = 0, overflow = 1, count =          x
+At time               335000, data_in =  31, data_out =   0, valid = 0, empty = 0, almost_empty = x, full = 1, almost_full = 1, underflow = 0, overflow = 0, count =          x
+At time               355000, data_in =  31, data_out =   0, valid = 1, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               365000, data_in =  31, data_out =   1, valid = 1, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               375000, data_in =  31, data_out =   2, valid = 1, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+Flag test mismatch. At least one flag is not behaving as expected.
+At time               380000, data_in =  34, data_out =   2, valid = 1, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               385000, data_in =  34, data_out =   3, valid = 1, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               395000, data_in =  34, data_out =   4, valid = 1, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               405000, data_in =  34, data_out =   5, valid = 1, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+At time               415000, data_in =  34, data_out =   5, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+Mismatch at location 6, Expected: 6, Got: 5
+At time               420000, data_in =  35, data_out =   5, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+Mismatch at location 7, Expected: 7, Got: 5
+Mismatch at location 8, Expected: 8, Got: 5
+At time               445000, data_in =  35, data_out =   6, valid = 1, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+Mismatch at location 9, Expected: 9, Got: 6
+At time               455000, data_in =  35, data_out =   6, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+Mismatch at location 10, Expected: 10, Got: 6
+At time               460000, data_in =  36, data_out =   6, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+Mismatch at location 11, Expected: 11, Got: 6
+Mismatch at location 12, Expected: 12, Got: 6
+At time               485000, data_in =  36, data_out =   7, valid = 1, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+Mismatch in count. Expected: 31, Got:          x
+Mismatch at location 13, Expected: 13, Got: 7
+At time               495000, data_in =  36, data_out =   7, valid = 0, empty = 0, almost_empty = x, full = 0, almost_full = x, underflow = 0, overflow = 0, count =          x
+$finish called from file "fifo_tb.v", line 119.
+$finish at simulation time               500000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 500000 ps
+CPU Time:      0.260 seconds;       Data structure size:   0.0Mb
+Sat May 13 14:14:10 2023
