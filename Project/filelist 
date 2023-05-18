@@ -1,0 +1,14 @@
+ethernet_top.sv
+eth_header_gen.sv
+endian_switch.sv
+eth_rst_gen.sv
+fifo.sv
+packet_gen.sv
+ethernet_tb.sv
+ethernet_header_pkg.sv
+rst_gen.sv
+ethernet_tb.sv
+ethernet_top_tb.sv
+
+
+
